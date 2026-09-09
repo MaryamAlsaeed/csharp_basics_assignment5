@@ -34,6 +34,13 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q4:
+            book.Genre = Genre.Science;
+            Console.WriteLine($" Book Genre: {book.Genre}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
