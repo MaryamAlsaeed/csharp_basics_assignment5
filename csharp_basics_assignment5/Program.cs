@@ -58,6 +58,13 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q7:
+            Genre genre = Genre.Fiction;
+            Console.WriteLine($"Genre: {genre.ToString()}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
