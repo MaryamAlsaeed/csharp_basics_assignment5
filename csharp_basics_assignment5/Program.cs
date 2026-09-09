@@ -26,7 +26,14 @@
             Console.WriteLine($"Copies in stock: {book.copiesInStock}"); // => it mprints 5 bec. internal os accessable in its scope ant the same project
             Console.WriteLine();
 
-            //----------------------SS
+            //----------------------
+
+            //Q3:
+            book.Title = "Clean Code";
+            Console.WriteLine($" Book Title: {book.Title}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
