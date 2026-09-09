@@ -17,7 +17,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Q1:
+            Book book = new Book();
+            //Console.WriteLine(book.password); => error bec password it is private and accessable in its scope only
+
+            //----------------------
         }
     }
 }
