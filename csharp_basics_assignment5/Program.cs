@@ -22,6 +22,11 @@
             //Console.WriteLine(book.password); => error bec password it is private and accessable in its scope only
 
             //----------------------
+            //Q2:
+            Console.WriteLine($"Copies in stock: {book.copiesInStock}"); // => it mprints 5 bec. internal os accessable in its scope ant the same project
+            Console.WriteLine();
+
+            //----------------------SS
         }
     }
 }
