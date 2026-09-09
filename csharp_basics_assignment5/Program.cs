@@ -65,6 +65,14 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q8:
+            string genreText = "Science";
+            Genre genre1 = (Genre)Enum.Parse(typeof(Genre), genreText);
+            Console.WriteLine($"Genre: {genre1}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
