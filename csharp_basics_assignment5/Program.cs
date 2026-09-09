@@ -73,6 +73,12 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q9:
+            string genreTextt = "Mystery";
+            bool flag = Enum.TryParse(genreTextt, out Genre genre2);
+            Console.WriteLine(flag ? $"Genre: {genreTextt}" : "Unknown genre");
+            Console.WriteLine();
         }
     }
 }
