@@ -50,6 +50,14 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q6:
+            int genreNumber = 1;
+            Genre genreValue = (Genre)genreNumber;
+            Console.WriteLine($"Genre Value: {genreValue}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
