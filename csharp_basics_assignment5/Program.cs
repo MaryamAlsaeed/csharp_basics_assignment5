@@ -41,6 +41,15 @@
             Console.WriteLine();
 
             //----------------------
+
+            //Q5:
+            book.Genre = Genre.Fiction;
+            Console.WriteLine($"Value of Fiction: {(int)Genre.Fiction}");
+            Console.WriteLine($"Value of Non-Fiction: {(int)Genre.NonFiction}");
+            Console.WriteLine($"Value of Science: {(int)Genre.Science}");
+            Console.WriteLine();
+
+            //----------------------
         }
     }
 }
